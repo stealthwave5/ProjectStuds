@@ -1,0 +1,5 @@
+# Normalize line endings for Unix CI
+*.luau text eol=lf
+*.luau text eol=lf
+*.json text eol=lf
+*.toml text eol=lf

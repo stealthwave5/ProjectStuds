@@ -1,0 +1,19 @@
+{
+	"robloxLsp.workspace.maxPreload": 1000,
+	"editor.detectIndentation": false,
+	"editor.formatOnSaveMode": "file",
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"[luau]": {
+		"files.eol": "\n",
+	},
+	"[lua]": {
+		"files.eol": "\n",
+	},
+	"stylua.targetReleaseVersion": "latest",
+	"luau-lsp.sourcemap.rojoProjectFile": "main.project.json",
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#5c1e28"
+	}
+}
