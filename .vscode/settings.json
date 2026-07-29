@@ -1,8 +1,6 @@
 {
 	"robloxLsp.workspace.maxPreload": 1000,
 	"editor.detectIndentation": false,
-	"editor.formatOnSaveMode": "file",
-	"editor.formatOnSave": true,
 	"editor.insertSpaces": false,
 	"editor.tabSize": 4,
 	"[luau]": {

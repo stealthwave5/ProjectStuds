@@ -1,52 +1,49 @@
 {
-	"servePort": 34900,
-	"emitLegacyScripts": false,
-	"name": "Kit Project",
-	"globIgnorePaths": [
-		"**/*.spec.luau"
-	],
-	"tree": {
-		"$className": "DataModel",
-		"ServerScriptService": {
-			"$className": "ServerScriptService",
-			"$ignoreUnknownInstances": true,
-			"ServerLoader": {
-				"$path": "Kit/Loaders/ServerLoader.server.luau"
-			},
-			"Server": {
-				"$path": "Server"
-			}
-		},
-		"ReplicatedStorage": {
-			"$className": "ReplicatedStorage",
-			"$ignoreUnknownInstances": true,
-			"Kit": {
-				"$path": "Kit/Kit.luau",
-				"Modules": {
-					"$path": "Kit/Modules"
-				}
-			},
-			"ClientLoader": {
-				"$path": "Kit/Loaders/ClientLoader.client.luau"
-			},
-			"Client": {
-				"$path": "Client"
-			},
-			"Shared": {
-				"$path": "Shared"
-			},
-			"Assets": {
-				"$className": "Folder",
-				"$ignoreUnknownInstances": true
-			}
-		},
-		"ServerStorage": {
-			"$className": "ServerStorage",
-			"$ignoreUnknownInstances": true,
-			"Assets": {
-				"$className": "Folder",
-				"$ignoreUnknownInstances": true
-			}
-		}
-	}
+    "emitLegacyScripts": false,
+    "name": "Kit Project",
+    "globIgnorePaths": ["**/*.spec.luau"],
+    "tree": {
+        "$className": "DataModel",
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$ignoreUnknownInstances": true,
+            "ServerLoader": {
+                "$path": "Kit/Loaders/ServerLoader.server.luau"
+            },
+            "Server": {
+                "$path": "Server"
+            }
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "$ignoreUnknownInstances": true,
+            "Kit": {
+                "$path": "Kit/Kit.luau",
+                "Modules": {
+                    "$path": "Kit/Modules"
+                }
+            },
+            "ClientLoader": {
+                "$path": "Kit/Loaders/ClientLoader.client.luau"
+            },
+            "Client": {
+                "$path": "Client"
+            },
+            "Shared": {
+                "$path": "Shared"
+            },
+            "Assets": {
+                "$className": "Folder",
+                "$ignoreUnknownInstances": true
+            }
+        },
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "$ignoreUnknownInstances": true,
+            "Assets": {
+                "$className": "Folder",
+                "$ignoreUnknownInstances": true
+            }
+        }
+    }
 }

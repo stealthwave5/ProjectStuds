@@ -404,8 +404,8 @@ end
 
 	The optional `arrayOrFunc` parameter can be provided with:
 
-	1. an array of strings — this will limit registration to only commands which have their `Group` property set to this
-	2. a function which takes in a CommandDefinition and returns a `boolean` — only if `true` is returned will the command be registered
+	1. an array of strings - this will limit registration to only commands which have their `Group` property set to this
+	2. a function which takes in a CommandDefinition and returns a `boolean` - only if `true` is returned will the command be registered
 
 	@param arrayOrFunc {string} | (CommandDefinition) -> boolean | nil
 
